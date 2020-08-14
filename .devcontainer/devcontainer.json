@@ -1,0 +1,16 @@
+{
+    "name": "cpp-gtest-dev",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "app",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "cschlosser.doxdocgen",
+        "xaver.clang-format",
+        "twxs.cmake"
+    ],
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose"
+}
