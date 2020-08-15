@@ -17,13 +17,13 @@ jobs:
       run: pwd && ls -l
     - name: apt install
       run: sudo apt-get install cmake
-#    - name: dir
-#      run: mkdir -p build/
-#      working-directory: build/
-    - name: mkdir build
-      run: mkdir -p build/
-      working-directory: ./build/
+
+    - name: pwd
+      run: pwd && ls -l
+    - name: setup build
+      working-directory: ./build
     - name: ls
       run: ls -l
-    #- name: git google-test
-    #  run: git clone https://github.com/google/googletest.git
+    - name: cmake
+      run: cmake ..
+      
