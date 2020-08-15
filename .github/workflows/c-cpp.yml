@@ -16,4 +16,4 @@ jobs:
     - name: pwd
       run: pwd && ls -l
     - name: apt install
-      run: apt install -y google-test
+      run: sudo apt install -y google-test
