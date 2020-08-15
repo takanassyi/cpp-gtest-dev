@@ -21,7 +21,7 @@ jobs:
     - name: pwd
       run: pwd && ls -l
     - name: setup build
-      run: mkdir -p ./build/
+      run: mkdir ./build/
       working-directory: ./build
     - name: ls
       run: ls -l
