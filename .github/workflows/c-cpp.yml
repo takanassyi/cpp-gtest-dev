@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: cmake
-      run: cd build/ && cmake ..
-    - name: make and install
-      run: make && make install
+    - name: pwd
+      run: pwd && ls -l
