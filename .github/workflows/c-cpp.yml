@@ -16,7 +16,7 @@ jobs:
     - name: pwd
       run: pwd && ls -l
     - name: docker
-      run: docker build -t .
+      run: docker build -t test .
     #- name: cmake
     #  run: cmake ..
     #  working-directory: ./build
