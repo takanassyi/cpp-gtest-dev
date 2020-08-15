@@ -19,7 +19,5 @@ jobs:
       run: mkdir -p build && cd build/
     - name: cd build/
       run: cd build
-    - name: cmake
-      run: cmake ..
-    - name: make and install
-      run: make && make install
+    - name: ls
+      run: ls -l
