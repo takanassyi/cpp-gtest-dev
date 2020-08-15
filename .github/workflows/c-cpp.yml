@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: pwd
       run: pwd && ls -l
-    - name: apt update
-      run: apt update
+    - name: apt install
+      run: apt install -y google-test
