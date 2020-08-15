@@ -15,3 +15,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: pwd
       run: pwd && ls -l
+    - name: mkdir build
+      run: mkdir -p build && cd build
+    - name: cmake
+      run: cmake ..
+    - name: make and install
+      run: make && make install
