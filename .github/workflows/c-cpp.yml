@@ -17,6 +17,15 @@ jobs:
       run: pwd && ls -l
     - name: mkdir build
       run: mkdir -p build/
-    - name: cmake
-      run: cmake ..
+    #- name: cmake
+    #  run: cmake ..
+    #  working-directory: ./build
+    - name: git clone gtest
+      run: git clone https://github.com/google/googletest.git
       working-directory: ./build
+    - name: gtest setup
+      run: mkdir -p ./build
+      working-directory: ./build/googletest
+    - name: gtest setup
+      run: cmake .. && make && make install
+      working-directory: ./build/googletest/build
