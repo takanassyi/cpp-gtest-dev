@@ -33,5 +33,5 @@ jobs:
       run: cmake .. && make && ls -l
       working-directory: ./build/
     - name: run test
-      run: ls -l
+      run: ls -l && ./TestSample1
       working-directory: ./build/test
