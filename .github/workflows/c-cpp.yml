@@ -27,5 +27,5 @@ jobs:
       run: mkdir -p ./build
       working-directory: ./build/googletest
     - name: gtest setup
-      run: cmake .. && make && make install
+      run: cmake .. && make && sudo make install
       working-directory: ./build/googletest/build
