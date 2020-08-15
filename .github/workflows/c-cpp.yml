@@ -1,0 +1,37 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: pwd
+      run: pwd && ls -l
+    - name: mkdir build
+      run: mkdir -p build/
+    #- name: cmake
+    #  run: cmake ..
+    #  working-directory: ./build
+    - name: git clone gtest
+      run: git clone https://github.com/google/googletest.git
+      working-directory: ./build
+    - name: gtest setup
+      run: mkdir -p ./build
+      working-directory: ./build/googletest
+    - name: gtest setup
+      run: cmake .. && make && sudo make install
+      working-directory: ./build/googletest/build
+    - name: build
+      run: cmake .. && make && ls -l
+      working-directory: ./build/
+    - name: run test
+      run: ls -l && ./TestSample1
+      working-directory: ./build/test
