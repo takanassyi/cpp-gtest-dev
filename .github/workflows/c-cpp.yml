@@ -20,7 +20,7 @@ jobs:
     - name: docker run
       run: docker run --rm -v ${PWD}:/workspace test bash
     - name : Inside docker container
-      run : ls -l
+      run : pwd && ls -l
     #- name: cmake
     #  run: cmake ..
     #  working-directory: ./build
