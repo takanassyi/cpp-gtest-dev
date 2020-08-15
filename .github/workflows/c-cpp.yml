@@ -17,6 +17,8 @@ jobs:
       run: pwd && ls -l
     - name: mkdir build
       run: mkdir -p build && cd build
+    - name: pwd
+      run: pwd && ls -l
     - name: cmake
       run: cmake ..
     - name: make and install
