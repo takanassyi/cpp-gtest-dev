@@ -3,11 +3,22 @@
 
 # cpp-gtest-dev
 
+## How to set up (Sorry, Japanese only.)
 
 https://qiita.com/takanassyi/items/a9c552e71cad9fbea412
 
 ---
 
+## 0.1 August 18, 2020
+- Version 0.1 release.
+  - Added LICENSE.txt, badges.
+  - Publish docker image.
+  - Some minor modifications.
+  
 ## (August 15, 2020)
 
 Add .github/workflows
+
+
+## License
+MIT
