@@ -1,7 +1,6 @@
 [![C/C++ CI](https://github.com/takanassyi/cpp-gtest-dev/workflows/C/C++%20CI/badge.svg)](https://github.com/takanassyi/cpp-gtest-dev/actions)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![GitHub release](https://img.shields.io/github/release/takanassyi/cpp-gtest-dev.js.svg)](https://github.com/takanassyi/cpp-gtest-dev/releases/)
 
 # cpp-gtest-dev
 
