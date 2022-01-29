@@ -5,13 +5,8 @@
     ],
     "service": "app",
     "extensions": [
-		"ms-vscode.cpptools",
-		"ms-vscode.cmake-tools",
-		"cschlosser.doxdocgen",
-		"xaver.clang-format",
-		"twxs.cmake",
-		"ms-azuretools.vscode-docker"
-	],
+        "ms-vscode.cpptools-extension-pack",
+    ],
     "workspaceFolder": "/workspace",
     "shutdownAction": "stopCompose"
 }

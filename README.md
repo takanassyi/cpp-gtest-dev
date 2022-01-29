@@ -15,6 +15,14 @@ https://qiita.com/takanassyi/items/a9c552e71cad9fbea412
 
 ---
 
+## 0.2 (January 29, 2022)
+- Version 0.2 release.
+  - Modified Gcc ver. 11
+  - Modified GooglTest ver. 1.11.0
+  - Modified LICENSE.
+  - Some minor modifications.
+
+
 ## 0.1 (August 18, 2020)
 - Version 0.1 release.
   - Added LICENSE.txt, badges.
