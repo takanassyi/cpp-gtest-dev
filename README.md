@@ -14,8 +14,11 @@
 https://qiita.com/takanassyi/items/a9c552e71cad9fbea412
 
 ---
-test
+## 0.2.1 (March 4, 2022)
+- Version 0.2.1 release.
+  - Some minor modifications.
 
+  
 ## 0.2 (January 29, 2022)
 - Version 0.2 release.
   - Modified Gcc ver. 11
