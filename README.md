@@ -1,5 +1,6 @@
 # cpp-gtest-dev
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c9ae35f5a61940a0bc460008d39c10b9)](https://app.codacy.com/gh/takanassyi/cpp-gtest-dev?utm_source=github.com&utm_medium=referral&utm_content=takanassyi/cpp-gtest-dev&utm_campaign=Badge_Grade_Settings)
 [![C/C++ CI](https://github.com/takanassyi/cpp-gtest-dev/workflows/C/C++%20CI/badge.svg)](https://github.com/takanassyi/cpp-gtest-dev/actions)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
