@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/takanassyi/cpp-gtest-dev/pulls)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/takanassyi/cpp-gtest-dev/badge)](https://www.codefactor.io/repository/github/takanassyi/cpp-gtest-dev)
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b9ade25a602c4c55a3c16653f9210a86)](https://www.codacy.com/gh/takanassyi/cpp-gtest-dev/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=takanassyi/cpp-gtest-dev&amp;utm_campaign=Badge_Grade)
 
 ## How to set up (Sorry, Japanese only.)
 
